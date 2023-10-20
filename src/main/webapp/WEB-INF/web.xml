@@ -20,6 +20,18 @@
         <servlet-name>JsonReaderServlet</servlet-name>
         <url-pattern>/JsonReaderServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ListItemsServlet</servlet-name>
+        <servlet-class>com.example.ListItemsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListItemsServlet</servlet-name>
+        <url-pattern>/ListItemsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EditItemServlet</servlet-name>
+        <servlet-class>com.example.EditItemServlet</servlet-class>
+    </servlet>
 
     <welcome-file-list>
         <welcome-file>form.jsp</welcome-file>
