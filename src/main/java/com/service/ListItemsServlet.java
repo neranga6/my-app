@@ -1,7 +1,9 @@
-package com.example;
+package com.service;
 
 // ListItemsServlet.java
 // Import statements...
+
+import com.model.Item;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
